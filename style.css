@@ -961,12 +961,12 @@ a {
 }
 .owner-photo-frame {
   position: relative;
-  max-width: 280px;
+  max-width: 380px;
   width: 100%;
 }
 .owner-img-placeholder {
   width: 100%;
-  aspect-ratio: 3/4;
+  aspect-ratio: 3/2;
   background: rgba(200,160,128,0.18);
   border: 1px solid rgba(200,136,58,0.2);
   display: flex;
@@ -975,7 +975,7 @@ a {
 }
 .owner-photo {
   width: 100%;
-  aspect-ratio: 3/4;
+  aspect-ratio: 3/2;
   object-fit: cover;
   border: 1px solid rgba(200, 136, 58, 0.2);
   display: block;
@@ -1290,7 +1290,7 @@ a.info-contact-value:hover { color: var(--clr-brown-mid); }
   .access-map iframe { height: 300px; }
 
   .owner-inner { grid-template-columns: 1fr; }
-  .owner-photo-frame { max-width: 240px; margin: 0 auto; }
+  .owner-photo-frame { max-width: 320px; margin: 0 auto; }
 }
 
 /* ============================================================
